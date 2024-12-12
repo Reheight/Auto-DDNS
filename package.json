@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc && copy package.json dist",
-    "start": "cd dist && node .",
-    "cycle": "npm run build && npm run start && cd .."
+    "autostart": "cd dist && node .",
+    "start": "node .",
+    "cycle": "npm run build && npm run autostart && cd .."
   },
   "author": "Dustin Palmatier",
   "license": "ISC",

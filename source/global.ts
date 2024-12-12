@@ -18,8 +18,8 @@ export const GLOBAL_VARIABLES: GV_TYPES = {
   CONSOLE_PREFIX: "[DDNS]",
   LOOP: undefined,
   CLOUDFLARE: {
-    EMAIL: "dustinpalmatier@icloud.com",
-    API_KEY: "0c884e4ed2436594abc96bde425d0855ab206",
+    EMAIL: "contact@dustinpalmatier.us",
+    API_KEY: "0c884e4ed2436594abxxxxxxd0855ab206",
   },
   DNS: {
     TARGET: "dev-home",

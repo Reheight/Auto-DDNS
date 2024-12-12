@@ -1,0 +1,22 @@
+{
+  "name": "auto-ddns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc && copy package.json dist",
+    "start": "cd dist && node .",
+    "cycle": "npm run build && npm run start && cd .."
+  },
+  "author": "Dustin Palmatier",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "axios": "^1.7.9"
+  },
+  "dependencies": {
+    "@types/cloudflare": "^2.7.15",
+    "cloudflare": "^3.5.0",
+    "dayjs": "^1.11.13"
+  }
+}
